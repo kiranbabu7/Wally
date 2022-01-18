@@ -46,6 +46,7 @@ async function Searchphotos(query) {
   data = await fetchdata(
     `https://api.pexels.com/v1/search?query=${query}&per_page=3`
   );
+  gallery.innerHTML = "";
   generatephotos(data);
 }
 
