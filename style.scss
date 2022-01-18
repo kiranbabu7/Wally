@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
+
+@mixin flex($dir: column, $just: center, $align: center) {
+  display: flex;
+  flex-direction: $dir;
+  justify-content: $just;
+  align-items: $align;
+}
+
+//Global Styling
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: "Open Sans", sans-serif;
+  font-size: 62.5%;
+  a {
+    text-decoration: none;
+    color: #000000;
+  }
+  button {
+    border: none;
+  }
+}
+
+//Header section
+
+header {
+  @include flex();
+  height: 10vh;
+  font-size: 2rem;
+}
+//search bar
+.search-form {
+  @include flex($dir: row);
+  button {
+    background-color: rgb(110, 182, 250);
+    font-size: 2rem;
+    height: 3.8rem;
+    cursor: pointer;
+    padding: 0 0.5rem;
+  }
+  button:hover {
+    background-color: rgb(43, 147, 245);
+  }
+  .search-bar {
+    height: 3.8rem;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    width: 25rem;
+    border: 2px solid rgb(82, 157, 228);
+    outline: none;
+  }
+}

@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+:root {
+  font-family: "Open Sans", sans-serif;
+  font-size: 62.5%;
+}
+
+:root a {
+  text-decoration: none;
+  color: #000000;
+}
+
+:root button {
+  border: none;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 10vh;
+  font-size: 2rem;
+}
+
+.search-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.search-form button {
+  background-color: #6eb6fa;
+  font-size: 2rem;
+  height: 3.8rem;
+  cursor: pointer;
+  padding: 0 0.5rem;
+}
+
+.search-form button:hover {
+  background-color: #2b93f5;
+}
+
+.search-form .search-bar {
+  height: 3.8rem;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  width: 25rem;
+  border: 2px solid #529de4;
+  outline: none;
+}
+/*# sourceMappingURL=style.css.map */
