@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -35,7 +36,11 @@ header {
       -ms-flex-align: center;
           align-items: center;
   height: 10vh;
-  font-size: 2rem;
+  font-size: 3rem;
+}
+
+.logo {
+  font-family: "Great Vibes", cursive;
 }
 
 .search-form {

@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
 
 @mixin flex($dir: column, $just: center, $align: center) {
   display: flex;
@@ -31,7 +32,10 @@
 header {
   @include flex();
   height: 10vh;
-  font-size: 2rem;
+  font-size: 3rem;
+}
+.logo {
+  font-family: "Great Vibes", cursive;
 }
 //search bar
 .search-form {
